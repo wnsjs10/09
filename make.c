@@ -11,7 +11,7 @@ grade[2] = 30;
 grade[3] = 40;
 grade[4] = 50;
 for (i=0;i<5;i++)
-printf("grade[%i]=%i\n", i,i);
+printf("grade[%i]=%i\n", i,grade[i]);
 
     return 0; 
 }
