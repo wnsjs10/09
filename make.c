@@ -7,13 +7,17 @@ int main(void)
 {
 int grade[SIZE];
 int i;
-printf("5명의 점수를 입력하시오: \n");
+int score[SIZE];
+
 
 for(i=0; i<SIZE; i++)
- scanf("%d",&grade[i]);
+{grade[i] = rand() % 100; 
+    score[i]= grade[i]; }
+
+
 
 for(i=0;i<SIZE;i++)
- printf("grade[%d]=%d\n", i, grade[i]);
+ printf("score[%d]=%d\n", i, score[i]);
 
 
  return 0; 
